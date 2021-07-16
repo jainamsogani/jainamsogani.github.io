@@ -223,8 +223,8 @@ h4 {
 }
 
 #about img{
-  width: 32rem;
-  height: 32rem;
+  width: 28rem;
+  height: 28rem;
 }
 
 #about h2 {
@@ -500,19 +500,19 @@ h4 {
   color: #000;
 }
 
-#contact .message-section, #contact .contact-section{
+#contact .message-section{
   color: #fff;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 #contact .contact-section{
-  padding-bottom: 7%;
+  color: #fff;
+  padding-bottom: 3%;
 }
 
 #contact i{
-  font-size: 3.9375rem;
-  width: 4.375rem;
-  margin-top: 40%;
+  font-size: 4.5rem;
+  width: 5rem;
 }
 
 #contact .fa-github{
@@ -521,8 +521,8 @@ h4 {
 }
 
 #contact .fa-facebook{
-  font-size: 3.2rem;
-  width: 3.55556rem;
+  font-size: 3.6rem;
+  width: 4rem;
 }
 
 @media (max-width: 990px){
@@ -530,12 +530,30 @@ h4 {
     padding-top: 5%;
   }
 
+  #contact h4{
+    font-size: 1rem;
+  }
+
   #contact .mb-5{
     margin-bottom: 0 !important;
   }
 
-  #contact .message-section, #contact .contact-section{
+  #contact .message-section{
     margin: 5%;
+  }
+
+  #contact ul{
+    padding-left: 0;
+  }
+
+  #contact i{
+    font-size: 2.7rem;
+    width: 3rem;
+  }
+
+  #contact .fa-facebook{
+    font-size: 2.4rem;
+    width: 2.66667rem;
   }
 
   #contact .container-fluid{
@@ -576,7 +594,7 @@ h4 {
 }
 
 .fa-facebook {
-  padding-top: 10px;
+  padding-top: 0.4rem;
   background: #3b5998;
   color: #fff;
   border-radius: 10%;
