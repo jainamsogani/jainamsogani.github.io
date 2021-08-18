@@ -17,6 +17,19 @@ h4 {
   text-align: center;
 }
 
+.small-header a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: grey;
+}
+
+@media (max-width: 990px){
+  .small-header a{
+    margin-top: 2rem;
+    font-size: 1.3rem;
+  }
+}
+
 .float-right{
   float: right !important;
 }
@@ -225,8 +238,6 @@ h4 {
   background-color: #e8f1ff;
   border-top-left-radius: 75%;
   border-top-right-radius: 25%;
-  /* border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%; */
   padding-bottom: 6rem;
 }
 
@@ -313,6 +324,7 @@ h4 {
 
 #skills{
   padding-bottom: 5%;
+  background-color: #e8f1ff;
 }
 
 #skills .container{
@@ -417,11 +429,42 @@ h4 {
 }
 
 #work{
-
+  padding-bottom: 6rem;
 }
 
 #work h2{
   font-family: 'Rubik', sans-serif;
+  font-size: 2.6rem;
+}
+
+#work p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#work .carousel img{
+  width: 100%;
+}
+
+#work .stacks{
+  color: #fff;
+  background-color: red;
+  font-family: 'Georama', sans-serif;
+}
+
+#work .links a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Georama', sans-serif;
+}
+
+@media (max-width: 990px){
+  #work h2{
+    font-size: 2rem;
+  }
+
+  #work .btn{
+    margin: 1% 0;
+  }
 }
 
 #contact{
@@ -430,7 +473,6 @@ h4 {
 
 #contact .heading{
   padding-bottom: 0;
-  padding-top: 0;
 }
 
 #contact .message-section{
