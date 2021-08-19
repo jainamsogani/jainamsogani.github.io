@@ -1,2 +1,8 @@
 # jainamsogani.github.io
-This is my complete portfolio website with Bootstrap - HTML/CSS and a bit of JavaScript and jQuery.
+This is my portfolio website live at [https://jainamsogani.github.io/](https://jainamsogani.github.io/).
+
+## Tech Stacks
+- HTML
+- CSS
+- Bootstrap
+- JS Libraries
