@@ -132,9 +132,9 @@ h4 {
 }
 
 #home h3 {
-  font-family: 'Shadows Into Light', cursive;
+  
   margin-top: 0;
-  font-size: 2.5rem;
+  /* font-size: 2.5rem; */
   font-weight: 500;
 }
 
@@ -168,10 +168,11 @@ h4 {
   color: #000;
 }
 
-#home .output h1 {
-  font-size: 2rem;
-  font-family: "Source Code Pro", monospace;
+#home .output h3 {
+  font-size: 2.5rem;
+  font-family: 'Shadows Into Light', cursive;
   margin-left: 0;
+  padding-top: 0;
   display: inline;
 }
 
@@ -217,9 +218,9 @@ h4 {
     font-size: 2.4rem;
   }
 
-  #home .output h1 {
+  #home .output h3 {
     font-size: 1.5rem;
-    font-family: "Source Code Pro", monospace;
+    font-family: 'Shadows Into Light', cursive;
     margin-left: 0;
   }
 

@@ -6,14 +6,16 @@ var i = 0,
 
 // Typerwrite text content. Use a pipe to indicate the start of the second line "|".  
 var textArray = [
-  "Welcome to my WebPage."
+  "A MERN Stack Web Developer",
+  "A Competitive Programmer",
+  "A Binge-Watcher"
 ];
 
 // Speed (in milliseconds) of typing.
-var speedForward = 100, //Typing Speed
+var speedForward = 50, //Typing Speed
     speedWait = 1000, // Wait between typing and backspacing
     speedBetweenLines = 1000, //Wait between first and second lines
-    speedBackspace = 25; //Backspace Speed
+    speedBackspace = 10; //Backspace Speed
 
 //Run the loop
 typeWriter("output", textArray);
@@ -21,7 +23,7 @@ typeWriter("output", textArray);
 function typeWriter(id, ar) {
   var element = $("#" + id),
       aString = ar[a],
-      eHeader = element.children("h1"), //Header element
+      eHeader = element.children("h3"), //Header element
       eParagraph = element.children("p"); //Subheader element
   
   // Determine if animation should be typing or backspacing
