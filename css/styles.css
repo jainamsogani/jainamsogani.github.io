@@ -354,12 +354,12 @@ h4 {
   width: 9.375rem;
 }
 
-#skills .web-section .heroku{
-  width: 6rem;
-}
-
 #skills .web-section .bootstrap{
   width: 7rem;
+}
+
+#skills .web-section .mongo {
+  margin-top: 21%;
 }
 
 #skills .cp-section{
